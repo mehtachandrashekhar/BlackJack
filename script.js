@@ -8,6 +8,6 @@ if(sum < 21){
 else if(sum === 21){
  console.log("Wohooo! You've BlackJack !🔥")   
 }
-else if(sum > 21){
+else {
     console.log("You're out of the game !🥲")
 }
