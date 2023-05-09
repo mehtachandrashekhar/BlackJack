@@ -11,3 +11,7 @@ else if(sum === 21){
 else {
     console.log("You're out of the game !🥲")
 }
+
+if(age>21){
+    console.log("you are eligible to vote")
+}
