@@ -1,11 +1,12 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(pexels-pixmike-413195.jpg);
+
 }
 h1{
     color:goldenrod;
 }
 
 #message-el{
-background: url(pexels-pixmike-413195.jpg);
 color:aliceblue;
 }
