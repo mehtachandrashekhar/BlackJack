@@ -1,9 +1,15 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: url(pexels-pixmike-413195.jpg);
+    background: url(sincerely-media-K5OLjMlPe4U-unsplash.jpg);
     color:white;
     font-weight: bold;
+    /* filter: blur(10px); */
+  /* -webkit-filter: blur(15px); */
 
+
+}
+.container{
+    
 }
 h1{
     color:goldenrod;
