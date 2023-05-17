@@ -9,7 +9,9 @@ body{
 
 }
 .container{
-    
+    /* display: flex; */
+    display: inline-block;
+    justify-content: center;
 }
 h1{
     color:goldenrod;
