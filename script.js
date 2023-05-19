@@ -13,7 +13,7 @@ function startGame(){
 
     cardsEl.textContent = "Cards: " + firstCard +" "+ secondCard;
     sumEl.textContent = "Sum: " + sum;
-    if(sum <=21){
+    if(sum < 21){
         message = "Do you want to draw a new card?"
     }
     else if(sum === 21){
