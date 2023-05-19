@@ -12,7 +12,7 @@ function startGame(){
         message = "Do you want to draw a new card?"
     }
     else if(sum === 21){
-     message = "Wohooo! You've BlackJack !"
+     message = "You've BlackJack !"
      hasBlackJack = true;  
     }
     else {
