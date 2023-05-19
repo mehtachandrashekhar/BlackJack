@@ -10,6 +10,8 @@ let cardsEl = document.querySelector("#cards-el");
 
 
 function startGame(){
+
+    cardsEl.textContent = "Cards: " + firstCard +" "+ secondCard;
     sumEl.textContent = "Sum: " + sum;
     if(sum <=21){
         message = "Do you want to draw a new card?"
@@ -24,4 +26,8 @@ function startGame(){
     }
     
     messageEl.textContent = message;
+}
+
+function newCard(){
+    
 }
