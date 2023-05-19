@@ -1,11 +1,10 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: url(sincerely-media-K5OLjMlPe4U-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
     color:white;
     font-weight: bold;
-    /* filter: blur(10px); */
-  /* -webkit-filter: blur(15px); */
-
 
 }
 .container{
@@ -18,5 +17,12 @@ h1{
 }
 
 #message-el{
+    font-style: italic;
 color:aliceblue;
+}
+
+.button-el{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
 }
