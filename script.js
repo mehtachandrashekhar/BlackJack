@@ -4,7 +4,8 @@ let sum = firstCard + secondCard;
 let hasBlackJack = false
 let isAlive = true
 let message = ""
-message = "We're logging out"
+message = ""
+
 
 function startGame(){
     if(sum <=21){
