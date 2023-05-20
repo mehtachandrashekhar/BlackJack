@@ -37,5 +37,6 @@ function newCard(){
 
     let newCard = 2;
     sum += newCard;
+    cards.push(newCard);
     renderGame();
 }
