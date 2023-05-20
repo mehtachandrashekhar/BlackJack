@@ -1,5 +1,6 @@
 let firstCard = 6;
 let secondCard = 9;
+let cards = [firstCard,secondCard]; // ordered list of items
 let sum = firstCard + secondCard;
 let hasBlackJack = false
 let isAlive = true
@@ -8,10 +9,13 @@ let messageEl = document.getElementById('message-el');
 let sumEl = document.getElementById('sum-el');
 let cardsEl = document.querySelector("#cards-el");
 
+function startGame(){
+    renderGame();
+}
 
 function renderGame(){
 
-    cardsEl.textContent = "Cards: " + firstCard +" "+ secondCard;
+    cardsEl.textContent = "Cards: " + cards[0] +" "+ cards[1];
     sumEl.textContent = "Sum: " + sum;
     if(sum < 21){
         message = "Do you want to draw a new card?"
