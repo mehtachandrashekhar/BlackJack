@@ -48,5 +48,6 @@ function getRandonCard(){
 // Math.randon() range = 0.000 to o.99999 (not inlcusive of 1) 
 // Math.floor(Math.random()*6) + 1 will return 1-6 int values 
 let randomNumber = Math.floor(Math.random()*13) + 1;
+console.log(randomNumber)
 return randomNumber;
 }
