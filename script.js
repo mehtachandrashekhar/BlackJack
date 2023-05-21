@@ -1,5 +1,5 @@
-let firstCard = 6;
-let secondCard = 9;
+let firstCard = getRandonCard();
+let secondCard = getRandonCard();
 let cards = [firstCard,secondCard]; // ordered list of items
 let sum = firstCard + secondCard;
 let hasBlackJack = false
@@ -36,10 +36,15 @@ function renderGame(){
 }
 
 function newCard(){
-    console.log("Drawing a new card form the deck.")
 
-    let newCard = 2;
+    console.log("Drawing a new card form the deck.")
+    let newCard = getRandonCard();
     sum += newCard;
     cards.push(newCard);
     renderGame();
+}
+
+function getRandonCard(){
+
+    return Math.random();
 }
