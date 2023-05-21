@@ -45,6 +45,6 @@ function newCard(){
 }
 
 function getRandonCard(){
-
+// Math.randon() range = 0.000 to o.99999 (not inlcusive of 1) 
     return 5;
 }
