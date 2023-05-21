@@ -46,5 +46,5 @@ function newCard(){
 
 function getRandonCard(){
 
-    return Math.random();
+    return 5;
 }
