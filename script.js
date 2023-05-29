@@ -55,5 +55,8 @@ if(randomNumber == 1){
 else if(randomNumber === 11,12,13){
     return 10;
 }
+else {
+    return randomNumber;
+}
 return randomNumber;
 }
