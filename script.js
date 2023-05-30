@@ -58,5 +58,5 @@ else if(randomNumber === 11 || 12 || 13){
 else {
     return randomNumber;
 }
-return randomNumber;
+// return randomNumber;
 }
