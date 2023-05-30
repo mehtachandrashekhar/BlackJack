@@ -52,7 +52,7 @@ let randomNumber = Math.floor(Math.random()*13) + 1;
 if(randomNumber == 1){
     return 11
 }
-else if(randomNumber === 11,12,13){
+else if(randomNumber === 11 || 12 || 13){
     return 10;
 }
 else {
