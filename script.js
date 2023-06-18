@@ -76,3 +76,5 @@ function getRandonCard() {
     }
     return randomNumber;
 }
+
+// project completed
